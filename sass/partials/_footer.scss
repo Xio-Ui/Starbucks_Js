@@ -1,0 +1,20 @@
+.icons{
+    position: absolute;
+    top: 40%;
+    padding: 0 3em;
+    transform: translateY(50%);
+    
+
+    i{
+      display: block;
+      margin-bottom: 1em;
+      color: white;
+      font-size: 23px;
+      transition: all 0.6s;
+
+      &:hover{
+        transform: translateY(-5px);
+        color: #05a36e;
+      }
+    }
+}
